@@ -25,6 +25,7 @@ resources:
 
 persistence:
   enabled: false
+# Persistant data is disabled as this is just for a Demo
 
 # Request smaller persistent volumes.
 # volumeClaimTemplate:
