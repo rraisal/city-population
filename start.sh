@@ -34,7 +34,7 @@ kubectl get pods
 printf "\n"
 echo "Minikube IP = `minikube ip`"
 printf "\n"
-echo "[INFO] Run following command to insert the first data into Elasticsearch once both the service Ready (This may take ~ 1-3 Minute)"
+echo "[INFO] Run following command to insert the first data into Elasticsearch once both the service Ready (This may take ~ 2-5 Minute)"
 printf "\n"
 echo "********************************************************************************************"
 echo "curl -X POST -F 'id=1' -F 'cityname=newyork' -F 'population=1000043' `minikube ip`/add_city"
