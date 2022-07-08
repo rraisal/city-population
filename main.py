@@ -43,12 +43,12 @@ def add_city():
 
 @app.route('/search_city', methods=['POST'])
 def search_user():
-    keyword = request.form['keyword']
+    cityname = request.form['cityname']
 
     query_body = {
         "query": {
             "match": {
-                "city_name": keyword,
+                "city_name": cityname,
             }
         }
     }
